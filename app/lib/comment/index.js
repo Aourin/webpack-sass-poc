@@ -1,5 +1,5 @@
 import React from 'react';
-import 'test-object-comment';
+import 'test-object-comment';   //Imports test-object-comment package
 
 export default class Comment extends React.Component {
   constructor (props) {
