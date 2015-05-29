@@ -4,7 +4,7 @@ This is a proof of concept to try and modular load sass styles into a webpack/re
 
 ###Step 1 - Clone
 ```
-git clone https://github.com/Aourin/webpack-sass-poc.git
+git clone https://github.com/GasStationTV/webpack-sass-poc.git
 ```
 
 ###Step 2 - Setup
