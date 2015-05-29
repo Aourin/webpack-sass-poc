@@ -1,11 +1,10 @@
-##Super Awesome Fish
+##Webpack/React/Sass Surprise Panda
 
-A simple boilerplate for webpack and react.
-This is under a lot of construction right now.
+This is a proof of concept to try and modular load sass styles into a webpack/react application
 
 ###Step 1 - Clone
 ```
-clone me the way you clone things in git
+git clone https://github.com/Aourin/webpack-sass-poc.git
 ```
 
 ###Step 2 - Setup
