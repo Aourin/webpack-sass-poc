@@ -33,7 +33,8 @@ module.exports = {
     extensions : ['', '.js', '.jsx'],
     alias: {
       app: APP_PATH,
-      lib: resolve('lib')
+      lib: resolve('lib'),
+      styles: resolve('styles')
     }
   },
   //Loaders and Stuffs
