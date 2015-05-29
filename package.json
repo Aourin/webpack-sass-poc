@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "webpack-sass-poc",
   "version": "0.1.0",
-  "description": "Harry Ho portfolio website",
+  "description": "Webpack/Sass/React POC for testing modular sass repos",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -10,7 +10,7 @@
     "copy-styles": "cp -r style-repos node_modules"
 
   },
-  "author": "",
+  "author": "Harry Ho <harry.ho@gstv.com>",
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.4.7",
