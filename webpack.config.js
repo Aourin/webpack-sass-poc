@@ -4,7 +4,8 @@ require('babel/register');
 const APP_PATH    = __dirname + '/app',
       BUILD_PATH  = __dirname + '/dist';
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin'),
+      ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 //Resolves app path
 function resolve(path) {
@@ -21,6 +22,7 @@ module.exports = {
     sourceMapFilename: 'bundle.map.js'
   },
   plugins: [
+    new ExtractTextPlugin("styles.css"),
     new HtmlWebpackPlugin({
       template: resolve('index.html'),
       filename: 'index.html',
@@ -46,7 +48,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: "style!css!sass"
+        loader: ExtractTextPlugin.extract("style-loader","css-loader","sass-loader")
       },
       { 
         test: /\.js$/,  
