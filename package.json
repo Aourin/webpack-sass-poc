@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --devtool eval --hot --progress --colors",
-    "setup": "cp -r style-repos node_modules; npm install;",
-    "copy-styles": "cp -r style-repos node_modules"
+    "setup": "npm install; cp -r test-webpack-poc-styles node_modules;",
+    "copy-styles": "rm -rf node_modules/test-webpack-poc-styles; cp -r test-webpack-poc-styles node_modules"
   },
   "author": "Harry Ho <harry.ho@gstv.com>",
   "license": "ISC",
