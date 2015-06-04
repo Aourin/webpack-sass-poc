@@ -2,8 +2,6 @@ import React from 'react';
 import {default as comments} from './mock-comments';  //Mock Comments
 import Comment from 'lib/comment';                    //CommentBlock Component
 
-import 'test-background-grey';    
-
 //Default ContentBlock class
 export default class ContentBlock extends React.Component {
   constructor (props) {

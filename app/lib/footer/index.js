@@ -1,5 +1,5 @@
 import React from 'react';
-import 'test-object-footer';  //Imports footer object styles
+// import 'test-object-footer';  //Imports footer object styles
 
 export default class FooterBlock extends React.Component {
   constructor (props) {
