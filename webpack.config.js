@@ -22,7 +22,7 @@ module.exports = {
     sourceMapFilename: 'bundle.map.js'
   },
   plugins: [
-    new ExtractTextPlugin("styles.css"),
+    new ExtractTextPlugin("app.css"),
     new HtmlWebpackPlugin({
       template: resolve('index.html'),
       filename: 'index.html',
@@ -48,7 +48,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract("style-loader","css-loader","sass-loader")
+        loader: ExtractTextPlugin.extract("style-loader","css-loader!sass-loader", "sass-loader")
       },
       { 
         test: /\.js$/,  
