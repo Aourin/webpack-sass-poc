@@ -16,6 +16,11 @@ npm run setup
 Running the setup will do an npm install and also copy the style-repos into the node_modules to mimic
 an npm style of repo dependencies. 
 
+```
+npm run copy-styles
+```
+copy-styles is the manual way to copy styles over from the style repos if needed
+
 ###Step 3 - Building and Running
 #####Building
 If you want to just build
